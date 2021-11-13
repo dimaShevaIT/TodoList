@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "text": "kdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "html",
+      "likes": 100
+    },
+    {
+      "id": "2",
+      "text": "HTMLkdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "html",
+      "likes": 100
+    },
+    {
+      "id": "3",
+      "text": "HHHHTMMLkdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "html",
+      "likes": 100
+    },
+    {
+      "id": "4",
+      "text": "CSSkdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "css",
+      "likes": 100
+    },
+    {
+      "id": "5",
+      "text": "CCCSSSCCkdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "css",
+      "likes": 100
+    },
+    {
+      "id": "6",
+      "text": "Sypes csskdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "css",
+      "likes": 100
+    },
+    {
+      "id": "7",
+      "text": "JSSypes csskdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "js",
+      "likes": 100
+    },
+    {
+      "id": "8",
+      "text": "JSSSSypes csskdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "js",
+      "likes": 100
+    },
+    {
+      "id": "9",
+      "text": "ReactSypes csskdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "react",
+      "likes": 100
+    },
+    {
+      "id": "10",
+      "text": "React sdasdSypes csskdljaskljdklasjdkl j ldkasjdlk jaslkdj daksljd klasjd lk klasj lkdsa",
+      "tag": "react",
+      "likes": 100
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.article {
+    display: flex;
+}
+
+.img {
+
+}
+
+.content {
+    margin-left: 10px; 
+}
+
+.genres {
+    margin-left: 10px;    
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "id-1",
+    "name": "Tacos With Lime",
+    "imgUrl": "https://i.pinimg.com/originals/6e/db/ac/6edbac0b1e71ca485d03c308f94f3cf4.jpg",
+    "alt": "Tacos With Lime",
+    "price": 10
+  },
+  {
+    "id": "id-2",
+    "name": "Tacos With Mint",
+    "imgUrl": "https://i.pinimg.com/originals/6e/db/ac/6edbac0b1e71ca485d03c308f94f3cf4.jpg",
+    "price": 10
+  }
+]

@@ -1,0 +1,111 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "title": "The root schema",
+    "description": "The root schema comprises the entire JSON document.",
+    "default": {},
+    "examples": [
+        {
+            "timer": {
+                "value": 0,
+                "step": 0
+            },
+            "posts": {
+                "items": [],
+                "selectedTag": null
+            }
+        }
+    ],
+    "required": [
+        "timer",
+        "posts"
+    ],
+    "properties": {
+        "timer": {
+            "$id": "#/properties/timer",
+            "type": "object",
+            "title": "The timer schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "value": 0,
+                    "step": 0
+                }
+            ],
+            "required": [
+                "value",
+                "step"
+            ],
+            "properties": {
+                "value": {
+                    "$id": "#/properties/timer/properties/value",
+                    "type": "integer",
+                    "title": "The value schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        0
+                    ]
+                },
+                "step": {
+                    "$id": "#/properties/timer/properties/step",
+                    "type": "integer",
+                    "title": "The step schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": 0,
+                    "examples": [
+                        0
+                    ]
+                }
+            },
+            "additionalProperties": true
+        },
+        "posts": {
+            "$id": "#/properties/posts",
+            "type": "object",
+            "title": "The posts schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": {},
+            "examples": [
+                {
+                    "items": [],
+                    "selectedTag": null
+                }
+            ],
+            "required": [
+                "items",
+                "selectedTag"
+            ],
+            "properties": {
+                "items": {
+                    "$id": "#/properties/posts/properties/items",
+                    "type": "array",
+                    "title": "The items schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": [],
+                    "examples": [
+                        []
+                    ],
+                    "additionalItems": true,
+                    "items": {
+                        "$id": "#/properties/posts/properties/items/items"
+                    }
+                },
+                "selectedTag": {
+                    "$id": "#/properties/posts/properties/selectedTag",
+                    "type": "null",
+                    "title": "The selectedTag schema",
+                    "description": "An explanation about the purpose of this instance.",
+                    "default": null,
+                    "examples": [
+                        null
+                    ]
+                }
+            },
+            "additionalProperties": true
+        }
+    },
+    "additionalProperties": true
+}
